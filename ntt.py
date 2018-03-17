@@ -1,7 +1,3 @@
-#Not this time!
-#defend your komfort
-#bartek banaś
-#25.02.2018
 
 from livewires import games
 import random
