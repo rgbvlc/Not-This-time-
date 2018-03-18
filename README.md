@@ -1,2 +1,2 @@
 # Not-This-time-
-Litte game in Python/Livewires
+Little game in Python/Livewires
