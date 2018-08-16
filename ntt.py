@@ -77,7 +77,6 @@ class Sperm(games.Sprite):
     def __init__(self,x,y,enemy_position):
         super(Sperm,self).__init__(image=Sperm.img,x=x,y=y)
         self.dire=random.choice(Sperm.direct)
-        print(self.enemy_position)
         if self.dire:
             self.dy=-Sperm.speed
             Sperm.ang=-1
@@ -104,12 +103,12 @@ class Sperm(games.Sprite):
             self.dy=-self.dy
         if self.left>=games.screen.width:
             self.destr()
-        self.condom_xposition(self.enemy_position)
+        self.condom_xposition(self.x)
 
     def condom_xposition(self,pos):
-        if self.pos-self.x<=0:
+        if pos-self.x<=0:
             self.dx+=5
-        if self.pos-self.x==30:
+        if pos-self.x==30:
             self.dy*=(-1)
         
     
