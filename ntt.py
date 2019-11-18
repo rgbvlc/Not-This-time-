@@ -1,7 +1,7 @@
 #name=Not this time
 #author=rgbvlc bartek.b133@wp.pl
 #info=simple game in pygame, livewires
-#           save your future!
+#        
 #status=unfinished
 #final version= ~ 2018
 #todo= new graphisc, animations, main menu, levels, sound and music
